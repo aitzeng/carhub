@@ -17,7 +17,7 @@ const CarCard = ({ car }: CarCardProps) => {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  const imaginApiKey = process.env.NEXT_PUBLIC_IMAGIN_API_KEY;
+  const imaginApiKey = "hrjavascript-mastery";
 
   function closeModal() {
     setIsOpen(false);
